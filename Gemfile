@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
-
-
+gem 'simplecov', :require => false, :group => :test
+gem 'minitest-ci', :git => 'git@github.com:circleci/minitest-ci.git'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record
