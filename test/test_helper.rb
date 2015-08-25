@@ -1,3 +1,7 @@
+require 'simplecov'
+  SimpleCov.start do
+  end
+
 if ENV['CIRCLE_ARTIFACTS']
   require 'simplecov'
   dir = File.join("..", "..", "..", ENV['CIRCLE_ARTIFACTS'], "coverage")
